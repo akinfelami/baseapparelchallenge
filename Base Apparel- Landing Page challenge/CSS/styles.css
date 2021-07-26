@@ -1,0 +1,168 @@
+
+.body-content{
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/logo.svg);
+}
+.bg-pattern{
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.landing-page{
+    position: relative;
+}
+
+
+.hero-img-1{
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: inline;
+    height: 800px;
+    max-width: 100%;
+}
+.hero-img-2{
+    display: none;
+}
+
+.logo-img{
+   margin-left: 70px;
+   padding-top: 70px;
+   margin-bottom: 50px;
+}
+
+.body-text{
+    margin-left: 50px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.top-text{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+    line-height: 3.7rem;
+    width: 100%;
+}
+
+.coming-text{
+    font-weight: 600;
+    letter-spacing: 1.0rem;
+    font-size: 3.3rem;
+    line-height: 4rem;
+    width: 100%;
+    
+}
+
+.info-text{
+    width: 37%;
+    margin-top: 20px;
+    color:hsl(0, 36%, 70%);
+    line-height: 2rem;
+
+}
+
+input{
+    padding: 15px;
+    margin-top: 30px;
+    background-color:hsl(0, 100%, 98%);
+    border-radius: 25px;
+    border-style: solid;
+    width: 35%;
+    height: 50px;
+    border-color: hsl(0, 93%, 68%);
+}
+
+button{
+    background-color:hsl(0, 93%, 68%);
+    border-radius: 30px;
+    width: 5%;
+    position: absolute;
+    left: 525px;
+    top: 545px;
+    border-style: solid;
+    height: 35px;
+}
+
+
+@media only screen and (max-width: 1158px){
+    .hero-img-1{
+        width: 45%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 618px){
+    .hero-img-1{
+        width: 290px;
+    }
+    
+
+
+@media only screen and (max-width: 650px){
+
+   
+    .logo-img{
+       margin-left: 40px;
+       margin-top: 30px;
+       padding-top: 10px;
+        text-align: left;
+
+    }
+
+    .body-text{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .info-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-img-1{
+        display: none;
+        
+    }
+
+    .hero-section{
+        text-align: center;
+    }
+
+    .hero-img-2{
+        display: inline;
+        width: 98%;
+        
+    }
+
+    .input-button{
+        text-align: left;
+    }
+
+    input{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .attribution{
+        top: 930px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .attribution{
+        top: 880px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .attribution{
+        top: 850px;
+    }
+}
