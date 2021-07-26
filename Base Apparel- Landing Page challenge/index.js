@@ -1,1 +1,0 @@
-$(".logo-img").fadeIn(3000);
